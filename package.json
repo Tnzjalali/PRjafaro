@@ -1,7 +1,7 @@
 {
   "name": "myfarm",
   "version": "0.1.0",
-  "homepage":"https://Tnzjalali.github.io/PRjafaro",
+  "homepage": "https://Tnzjalali.github.io/PRjafaro",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
@@ -99,8 +99,8 @@
     "yup": "0.32.9"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
